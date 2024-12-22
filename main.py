@@ -88,7 +88,7 @@ def analyze_spending_by_year(account, hallticket, use_cache=True):
         "大一": ("2021-09-01", "2022-08-31"),
         "大二": ("2022-09-01", "2023-08-31"),
         "大三": ("2023-09-01", "2024-08-31"),
-        "大四": ("2024-09-01", "2025-08-31"),
+        "大四": ("2024-09-01", "2024-12-31"),
     }
     spending_by_year = {}
     for year, (sdate, edate) in years.items():
